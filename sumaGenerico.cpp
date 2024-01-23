@@ -1,6 +1,6 @@
 #include <iostream>
 #include <mpi.h>
-#include<math.h>
+#include <math.h>
 
 #define N 9
 
