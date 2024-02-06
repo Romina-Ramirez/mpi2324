@@ -10,9 +10,10 @@ sudo apt-get install libopenmpi-dev
 ## Compilación
 
 mpicxx ejemplo.cpp -o ejemplo
-mpicxx EvaluacionParcial.cpp -o EvaluacionParcial
+mpicxx correccion.cpp -o correccion
 
 
 ## Ejecutar
 
-mpiexec -n procs ./EvaluacionParcial
+mpiexec -n procs ./ejemplo
+mpiexec -n 4 ./correccion
